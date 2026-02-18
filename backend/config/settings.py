@@ -64,6 +64,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://hrms-lite.vercel.app"
+]
+
 ROOT_URLCONF = 'config.urls'
 
 REST_FRAMEWORK = {
